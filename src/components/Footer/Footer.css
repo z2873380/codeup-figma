@@ -1,0 +1,102 @@
+/* src/components/Footer.css */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f5f5; /* Light grey background */
+    border-top: 1px solid #ccc; /* Light border on top */
+    position: fixed; /* Fix at bottom */
+    bottom: 0;
+    width: 80%;
+}
+
+.view-all {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #000;
+}
+
+.view-all i {
+    margin-right: 5px;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+}
+
+.page-number {
+    margin: 0 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+.page-number.active {
+    color: #000;
+    font-weight: bold;
+}
+
+/* .add-to-cart-section {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color:white;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-right: -18px;
+}
+
+.add-to-cart-section i {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.add-to-cart-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.price {
+    font-size: 16px;
+    color: white;
+} */
+
+/* src/components/Footer/Footer.css */
+.add-to-cart-section {
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-right: -18px;
+    display: flex;
+    align-items: center;
+    background-color: #000; /* Ensuring it's black */
+    color: #fff; /* Text color should be white */
+    padding: 10px 20px; /* Padding for spacing */
+    border-radius: 5px; /* Optionally rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
+}
+
+.add-to-cart-section i {
+    margin-right: 10px; /* Space between icon and text */
+    font-size: 14px; /* Icon size */
+}
+
+.add-to-cart-button {
+    background-color: transparent; /* Remove any background color */
+    border: none; /* No border */
+    color: #fff; /* Text color */
+    font-size: 14px; /* Font size */
+    cursor: pointer;
+    margin-right: 20px; /* Space before the price */
+    padding: 5px 10px; /* Padding around text */
+}
+
+.price {
+    font-size: 14px; /* Larger font size for visibility */
+    color: #fff; 
+}
